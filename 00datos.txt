@@ -1,0 +1,71 @@
+
+Miembros de la pareja: Luis Alberto López Álvarez y Álvaro de Rojas Maraver
+
+---------------------------------------------------------------------------------------
+
+Práctica 7 - Dapp para Asignatura Full 2022
+
+La dapp Asignatura Full 2022 que hay que desarrollar en esta práctica incorpora funcionalidades nuevas. Se basa en el contrato Asignatura Full 2022 desarrollado en la práctica 6. El alumno puede modificar el contrato Asignatura que desarrolló en su práctica 6 si lo desea/necesita para realizar esta práctica.
+
+****Deben implementarse OBLIGATORIAMENTE las siguientes funcionalidades, que proporcionan 7 puntos a la nota de la práctica.
+
+Tareas 1.1, 1.2, 1.3, 1.4 y 1.5 => Realizadas
+Tareas 2.1 y 2.2 => Realizadas
+Tareas 4.1 y 4.2 => Realizadas
+Tareas 5.1 y 5.3 => Realizadas
+
+1.Página Home:
+---------------
+1.1 - Añadir un elemento que muestre la dirección del usuario owner.
+1.2 - Añadir un elemento que muestre la dirección del coordinador de la Asignatura.
+1.3 - Añadir un formulario para cambiar la dirección del coordinador. Este formulario solo se debe mostrar si el usuario conectado es el owner.
+1.4 - Añadir un indicador que indique si la asignatura está abierta o cerrada.
+1.5 - Añadir un formulario que permita cerrar la asignatura. Solo se debe mostrar si el usuario conectado es el coordinador.
+
+
+2. Página Evaluaciones:
+------------------------
+2.1 - Crear un formulario para añadir nuevas evaluaciones. Este formulario solo debe mostrarse si el usuario conectado es el coordinador.
+2.2 - Crear un formulario para editar las evaluaciones existentes. Este formulario solo debe mostrarse si el usuario conectado es el coordinador.
+
+
+4. Página Alumnos: 
+------------------
+4.1 - Que el listado de todos los alumnos solo pueda verlo el owner, el coordinador o un profesor.
+4.2 - Crear un formulario para que un usuario pueda automatricularse como alumno. La dirección seleccionada en Metamask identifica al alumno que se está matriculando.
+
+
+5. Página Calificaciones:
+--------------------------
+5.1 - Añadir algo que permita obtener un listado con las notas de todos los alumnos en una determinada evaluación. Esta funcionalidad solo debe estar disponible para el coordinador y los profesores de la asignatura.
+5.3 - En la tabla de calificaciones, meter algo para que pueda editarse la nota de un alumno en una determinada evaluación sin tener que escribir la dirección del alumno. Esta funcionalidad solo debe estar disponible para los profesores de la asignatura.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+****El desarrollo de las demás funcionalidades es OPCIONAL y cada una de ellas aporta 0.5 puntos a la nota de la práctica.
+
+Tareas 3.1 y 3.2 => Realizadas
+Tarea 4.3 => Realizada
+Tareas 5.2, 5.4 => Realizadas
+Tarea 6.1 => Realizada
+
+3. Página Profesores:
+----------------------
+3.1 - Crear una página que liste todos los profesores de la asignatura.
+3.2 - Crear un formulario para añadir nuevos profesores. Este formulario solo debe mostrarse si el usuario conectado es el owner.
+
+
+4. Página Alumnos: 
+------------------
+4.3 - Crear un formulario para que el owner del contrato pueda matricular a nuevos alumnos.
+
+
+5. Página Calificaciones:
+--------------------------
+5.2 - Añadir algo que permita obtener un listado con las notas de un alumno en un todas las evaluaciones. Esta funcionalidad solo debe estar disponible para el propio alumno.
+5.4 - Añadir algo para que el coordinador o un profesor de la asignatura puedan obtener un listado con la notas final de todos los alumnos en la asignatura.
+
+
+6. Página Mis Cosas:
+---------------------
+6.1 - Añadir unos indicadores que informen sobre los roles del usuario: si es owner, coordinador, profesor o alumno.
